@@ -1,50 +1,25 @@
-# Olympics SQL Analysis
+# Olympic Games Data Analysis
 
-## Overview
-This project analyzes Olympic Games data using structured SQL queries. The analysis highlights trends in medal distribution, athlete participation, and host cities.
+This project is focused on analyzing data from the Olympic Games using SQL. The main objective is to understand various aspects of the Olympic Games, including which countries win the most medals, which athletes perform the best, and trends in the Olympic Games over time.
 
-### Goals:
-- Learn to design and query relational databases.
-- Gain insights into the Olympics dataset through SQL analysis.
-- Demonstrate proficiency in SQL and database management.
+### Goals of the Project:
+- Organize Olympic Games data into structured tables.
+- Use SQL to analyze the data.
+- Understand patterns related to medals, athletes, and regions.
+- Track performance trends across different Olympic Games.
 
----
+The project contains SQL scripts for:
+1. Creating the database schema (tables).
+2. Inserting Olympic data into the tables.
+3. Running complex queries to analyze the data and extract insights.
 
-## Project Details
-
-### Database Description
-The `Olympics` database includes 11 tables:  
-1. `medal` - Stores medal details (Gold, Silver, Bronze).  
-2. `noc_region` - National Olympic Committees and regions.  
-3. `city` - Olympic host cities.  
-4. `sport` - Sports categories.  
-5. `event` - Specific Olympic events.  
-6. `games` - Olympic Games details (year, season, etc.).  
-7. `games_city` - Mapping of games to cities.  
-8. `person` - Athlete information.  
-9. `person_region` - Athlete's nationality and regions.  
-10. `games_competitor` - Athlete participation per game.  
-11. `competitor_event` - Athlete performance in events.
-
-### Entity-Relationship Diagram
-Below is the database schema used in this project:
-
-![ER Diagram](images/ERD.png)
+### Key Insights to Explore:
+- Which country has won the most gold medals?
+- What are the most popular Olympic events?
+- How have athlete demographics evolved over time?
 
 ---
 
-## Key Insights
-- **Top-performing Regions**: Regions with the most Gold medals.  
-- **Host Cities**: Cities that hosted Summer Olympics.  
-- **Athlete Trends**: Athletes with the most medals in specific years.  
-
-See [query results](images/query_results/) for detailed screenshots.
-
----
-
-## Setup and Usage
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/yourusername/Olympics_SQL_Analysis.git
-cd Olympics_SQL_Analysis
+**Technologies Used:**
+- SQL (to create and manipulate the database)
+- pgAdmin (SQL tool used for creating and analyzing the database)
