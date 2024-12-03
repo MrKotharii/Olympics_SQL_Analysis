@@ -37,7 +37,6 @@ This project uses SQL to analyze data from the Olympic Games, including informat
    - [Setup Instructions](#setup-instructions)
 4. [Key Features](#key-features)
 5. [Insights](#insights)
-6. [File Structure](#file-structure)
 
 ---
 
