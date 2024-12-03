@@ -1,3 +1,4 @@
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue)
 # Olympic Games Data Analysis
 
 This project is focused on analyzing data from the Olympic Games using SQL. The main objective is to understand various aspects of the Olympic Games, including which countries win the most medals, which athletes perform the best, and trends in the Olympic Games over time.
